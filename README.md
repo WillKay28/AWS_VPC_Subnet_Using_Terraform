@@ -1,7 +1,6 @@
-# Docker_AWS_CI_CD_Pipeline
-Docker AWS CI/CD Pipeline
+# AWS_VPC_Subnet_Using_Terraform
 
-In this project, I create EC2 Instances, Security Groups, VPC, Subnets, Route table, Internet Gateway and S3 infrastructure in AWS using Terraform (IaC) and use them to build a CI/CD pipeline for a containerized web app in Jenkins. 
+In this project, I create EC2 Instances, Security Groups, VPC, Subnets, Route table, Internet Gateway and S3 infrastructure in AWS using Terraform (IaC).
 
 In summary, I use Terraform to: 
 
@@ -13,4 +12,4 @@ In summary, I use Terraform to:
 6. Create the necessary EC2 Instances in the subnets and attach extra EBS volume.
 7. Output the Public IP addresses of the servers. 
 
-I store the containerized image in Amazon ECR and deploy it Amazon ECS.  Note: server_key & server_key.pub -> These were SSH keys I generated using ssh-keygen to serve as keypairs for my servers.
+Note: server_key & server_key.pub -> These were SSH keys I generated using ssh-keygen to serve as keypairs for my instance.
