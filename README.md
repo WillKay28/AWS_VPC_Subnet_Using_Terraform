@@ -12,4 +12,8 @@ In summary, I use Terraform to:
 6. Create the necessary EC2 Instances in the subnets and attach extra EBS volume.
 7. Output the Public IP addresses of the servers. 
 
-Note: server_key & server_key.pub -> These were SSH keys I generated using ssh-keygen to serve as keypairs for my instance.
+Note: 
+1. dove_key & dove_key.pub -> These are SSH keys I generate using ssh-keygen to serve as keypairs for my instance.
+2. backend.tf stores the state files of the resources in s3 bucket.
+3. web.sh is used to provision the EC2 Instance.
+
